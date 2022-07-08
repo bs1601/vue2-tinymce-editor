@@ -75,7 +75,7 @@ var script = {
 
   data() {
     return {
-      inputId: "editor-" + Math.random() * 100000,
+      inputId: "editor-" + Math.floor(Math.random() * 10000000),
       content: '',
       editor: null,
       checkerTimeout: null,
